@@ -66,19 +66,20 @@ nav a,li{
 }
 
 h1{
-   font-family: 'Roboto';
-    font-size:7rem;
+   font-family: 'Montserrat';
+    font-size:5rem;
     color:var(--white);
     text-transform:uppercase;
     font-weight:900;
 }
 h2{
     font-size:3rem;
-    font-family:'Roboto'; 
+    font-family:'Montserrat'; 
     color:var(--gunmetal);
     text-align: center;
     text-transform:uppercase;
     margin-bottom: 2rem;
+    font-weight:900;
 }
 
 h3{
@@ -101,6 +102,38 @@ section{
     margin-bottom: 2rem;
 
 }
+
+.special{
+    font-size:4.6rem;
+    font-family: Montserrat;
+    font-weight:900;
+    text-transform: uppercase;
+}
+.proof img{
+    width:300px;
+    height:auto;
+    object-fit:cover;
+}
+
+.text-info{
+    text-transform:capitalize;
+    font-size:1.5rem;
+}
+
+.proof{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background:var(--white);
+    padding:1rem;
+}
+.text{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    max-width:700px;
+    width:100%;
+}
 .hero-info{
     display:flex;
     max-width:900px;
@@ -115,7 +148,7 @@ section{
     color:var(--black);
     width:300px;
     text-transform:capitalize;
-    font-weight:900;
+   
 }
 
 .btn{
