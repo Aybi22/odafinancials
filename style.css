@@ -78,6 +78,12 @@ h2{
     color:var(--gunmetal);
     text-align: center;
     text-transform:uppercase;
+    margin-bottom: 2rem;
+}
+
+h3{
+    text-transform:capitalize;
+    font-family: 'Roboto';
 }
 
 section{
@@ -89,10 +95,10 @@ section{
     color:#1D4734;
     width:1000px;
     text-transform:uppercase;
-    font-weight:600;
+    font-weight:700;
     margin:auto;
     text-align:center;
-    
+    margin-bottom: 2rem;
 
 }
 .hero-info{
@@ -125,4 +131,30 @@ section{
     max-width:800px;
     margin:auto;
    gap:2rem;
+}
+
+.value-wrapper{
+    display:flex;
+    max-width:1300px;
+    width:100%;
+   margin: auto;
+   gap:3rem;
+  
+}
+
+.icons-box{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:3rem;
+   
+}
+.icons-box img{
+    width:200px;
+    
+}
+.icons-box p{
+    width:300px;
+    margin-bottom:3rem;
+    text-align: center;
 }
