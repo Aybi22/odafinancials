@@ -31,12 +31,21 @@ img{
    
 }
 
-nav ul{
+nav {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
     margin:0;
     padding:0;
+}
+
+ul{
+    display:flex;
+    gap:3rem;
+
+}
+ul a{
+    font-weight:600;
 }
 nav li{
     list-style:none;
