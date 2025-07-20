@@ -255,6 +255,56 @@ section{
 
 footer{
     background:#1D4734;
-    padding:3rem;
+   padding: 2rem;
     color:var(--white);
+}
+
+.contacts{
+    display:flex;
+    flex-direction:column;
+}
+.bold{
+    font-weight:700;
+    color:var(--white);
+    text-transform: capitalize;
+    font-size:1.5rem;
+    margin-bottom:1rem;
+}
+.rights{
+    text-align: center;
+    margin-top:1rem;
+}
+.social-content{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+.social-content i{
+   
+}
+
+.links{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+}
+.infos-wrapper{
+    display:flex;
+   align-items:start;
+    justify-content:center;
+    gap:3rem;
+    border-bottom:2px solid var(--white);
+    padding:3rem;
+}
+.links li{
+    list-style:none;
+}
+
+.links a{
+    color:var(--white);
+}
+.social{
+    display:flex;
+    flex-direction: column;
 }
