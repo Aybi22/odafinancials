@@ -36,8 +36,9 @@ img{
 
 .hero-image img{
     width:900px;
-    height:100%;
-    flex:1;
+    height:700px;
+    object-fit:contain;
+    
 }
 
 nav {
@@ -163,12 +164,12 @@ section{
     padding:1.5rem;
 }
 .hero a.btn{
-    background:#1D4734;;
-    color:var(--white);
+    background:var(--snow);
+    color:var(--black);
     width:300px;
     text-transform:capitalize;
     font-weight:600;
-    border:4px solid  var(--snow);
+   
    
 }
 
@@ -214,4 +215,9 @@ section{
     width:300px;
     margin-bottom:3rem;
     text-align: center;
+}
+
+footer{
+    background:#1D4734;
+    padding:3rem;
 }
