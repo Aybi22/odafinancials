@@ -308,3 +308,27 @@ footer{
     display:flex;
     flex-direction: column;
 }
+.review-wrapper{
+    display:flex;
+    justify-content:center;
+    gap:7rem;
+
+}
+.review-wrapper h3{
+    margin-bottom: 2rem;
+}
+.stars{
+    color:goldenrod;
+    margin-bottom: 2rem;
+}
+
+.job{
+    font-size:1rem;
+    white-space: nowrap;
+    color:var(--black);
+    font-weight:lighter;
+}
+.review-wrapper article{
+    max-width:600px;
+    width:100%;
+}
