@@ -190,9 +190,9 @@ section{
 
 .value-wrapper{
     display:flex;
-    max-width:1300px;
+    max-width:100%;
     width:100%;
-   margin: auto;
+   justify-content:space-between;
    gap:3rem;
   
 }
@@ -220,4 +220,5 @@ section{
 footer{
     background:#1D4734;
     padding:3rem;
+    color:var(--white);
 }
