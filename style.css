@@ -47,7 +47,20 @@ nav {
     align-items:center;
     margin:0;
     padding:0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    
+    overflow:hidden;
+    
 }
+header{
+    background:var(--white);
+    top:0;
+    position:sticky;
+    z-index:999;
+}
+
 
 ul{
     display:flex;
@@ -255,7 +268,7 @@ section{
 }
 
 footer{
-    background:#1D4734;
+    background:var(--gunmetal);
    padding: 2rem;
     color:var(--white);
 }
