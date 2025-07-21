@@ -106,8 +106,9 @@ nav a,li{
     align-items:center;
     gap:2rem;
     padding:0.5rem;
-    font-size:1.5rem;
+    font-size:1.3rem;
     font-weight:700;
+    text-transform: uppercase;
    
 }
 
@@ -311,7 +312,7 @@ footer{
 .review-wrapper{
     display:flex;
     justify-content:center;
-    gap:7rem;
+    gap:10rem;
 
 }
 .review-wrapper h3{
@@ -331,4 +332,9 @@ footer{
 .review-wrapper article{
     max-width:600px;
     width:100%;
+}
+
+.icons-box {
+  opacity: 1;
+  transform: translateY(0);
 }
