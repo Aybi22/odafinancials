@@ -278,7 +278,21 @@ the AAT, ICPA and acca</p>
 </section>
 
 
+<section class="booking">
+<article class="booking-info">
+<p class="special">let us talk!</p>
+<p class="text-info"> Your first consultation is free</p>
 
+
+<a class="btn">Schedule a consultation</a>
+</article>
+
+<div class="image">
+<img src="images/call.webp" class="round">
+
+</div>
+
+</section>
 
 
 
@@ -323,7 +337,34 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   
   
-  
+  gsap.from(".proof .text", {
+    scrollTrigger: {
+      trigger: ".proof",
+      start: "top 85%", // when .proof enters 85% from the top of viewport
+      toggleActions: "play none none none"
+    },
+    opacity: 0,
+    y: 80,
+    duration: 1.2,
+    ease: "power2.out",
+    stagger:0.2
+  });
+
+  gsap.from(".proof .image", {
+    scrollTrigger: {
+      trigger: ".proof",
+      start: "top 85%",
+      toggleActions: "play none none none"//ensures the animation only plays once, 
+      // and doesn’t reverse when scrolling back up
+    },
+    opacity: 0,// the image starts hidden
+    y: 80,
+    duration: 1.2,
+    ease: "power2.out",
+    stagger:0.2
+  });
+</script>
+
   
   
   
