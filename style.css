@@ -1,7 +1,7 @@
 
 :root{
 
---section-spacing:2rem;
+--section-spacing:8rem;
 --paragraph-size:1rem;
 --eerie-black:#1D2120;
 --snow:#FDF5F5;
@@ -64,6 +64,7 @@ header{
     top:0;
     position:sticky;
     z-index:999;
+    margin-bottom:1rem;
 }
 
 
@@ -115,7 +116,11 @@ nav a,li{
    
     
 }
-
+.oda-logo img{
+    width:200px;
+    height:50px;
+    object-fit:cover;
+}
 
 .image-info p{
     text-transform: capitalize;
@@ -155,7 +160,7 @@ h3{
 }
 
 section{
-    margin-top:var(--section-spacing);
+    margin-bottom:var(--section-spacing);
 }
 
 .section-info{
@@ -166,7 +171,7 @@ section{
     font-weight:700;
     margin:auto;
     text-align:center;
-    margin-bottom: 4rem;
+    margin-bottom:4rem;
 
 }
 
@@ -219,9 +224,13 @@ section{
    
    
 }
+.about-para{
+    
+}
 
 .btn{
-    background:var(--eerie-black);
+   background :#1D4734;
+
     color:var(--white);
     text-align:center;
     padding:13px 14px;
@@ -407,11 +416,17 @@ display:block;
 .value-text{
     color:var(--white);
     background:#1D4734;
+    width:700px;
+    padding:2rem;
+}
+
+.value-text p{
+    line-height: 1.8;
 }
 .culture{
     display:flex;
     justify-content:center;
 }
 .culture h2{
-    color:var(--white);
+    
 }
