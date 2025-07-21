@@ -36,6 +36,7 @@ p{
 }
 .hero{
     display:flex;
+    align-items: center;
 }
 
 .hero-image img{
@@ -387,4 +388,30 @@ footer{
     justify-content: center;
     gap:3rem;
     margin-top:4rem;
+}
+
+.certificates img{
+    width:300px;
+    height:150px;
+    object-fit:cover;
+    display:block;
+}
+
+ .culture img{
+width:900px;
+height:500px;
+object-fit: cover;
+display:block;
+}
+
+.value-text{
+    color:var(--white);
+    background:#1D4734;
+}
+.culture{
+    display:flex;
+    justify-content:center;
+}
+.culture h2{
+    color:var(--white);
 }
