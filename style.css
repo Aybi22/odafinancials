@@ -30,6 +30,10 @@ img{
     display:block;
    
 }
+
+p{
+    line-height:1.7;
+}
 .hero{
     display:flex;
 }
@@ -350,4 +354,25 @@ footer{
 .icons-box {
   opacity: 1;
   transform: translateY(0);
+}
+
+.about-wrapper{
+    display:flex;
+    justify-content:center;
+    gap:5rem;
+}
+
+.about-wrapper img{
+    width:500px;
+    height:auto;
+   
+}
+
+.text-wrapper{
+    display:flex;
+    flex-direction:column;
+    gap:3rem;
+    max-width:500px;
+    width:100%;
+   
 }
