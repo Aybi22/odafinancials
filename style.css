@@ -356,6 +356,12 @@ footer{
   transform: translateY(0);
 }
 
+.mission p{
+    max-width:900px;
+    width:100%;
+    margin:auto;
+}
+
 .about-wrapper{
     display:flex;
     justify-content:center;
@@ -375,4 +381,10 @@ footer{
     max-width:500px;
     width:100%;
    
+}
+.certificates{
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+    margin-top:4rem;
 }
