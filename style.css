@@ -1,7 +1,7 @@
 
 :root{
 
---section-spacing:8rem;
+--section-spacing:7rem;
 --paragraph-size:1rem;
 --eerie-black:#1D2120;
 --snow:#FDF5F5;
@@ -391,7 +391,11 @@ footer{
     width:100%;
     margin:auto;
 }
-
+.mission h3{
+    text-align:center;
+    margin-bottom:2rem;
+    margin-top: 2rem;
+}
 .about-wrapper{
     display:flex;
     justify-content:center;
@@ -438,6 +442,9 @@ display:block;
     background:#1D4734;
     width:700px;
     padding:2rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .value-text p{
@@ -449,4 +456,36 @@ display:block;
 }
 .culture h2{
     
+}
+.step-box{
+    background:#1D4734;
+    color:var(--white);
+    width:100%;
+    padding:2rem;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    align-items: center;
+}
+
+.step-box p{
+  line-height: 1.8;
+  font-weight: 600;
+}
+.step-wrapper{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:3rem;
+    max-width:1300px;
+    width:100%;
+    margin:auto;
+}
+
+.number{
+    font-weight:900;
+    font-size:4rem;
+    text-align:center;
+}
+.span-2{
+grid-column: span 2;
 }
