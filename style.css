@@ -473,6 +473,11 @@ display:block;
   line-height: 1.8;
   font-weight: 500;
   width:700px;
+  font-size:2rem;
+}
+
+.centered{
+    text-align:center;
 }
 
 .step-box img{
