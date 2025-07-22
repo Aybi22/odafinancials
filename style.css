@@ -470,7 +470,8 @@ display:block;
 
 .step-box p{
   line-height: 1.8;
-  font-weight: 600;
+  font-weight: 500;
+  width:700px;
 }
 .step-wrapper{
     display:grid;
