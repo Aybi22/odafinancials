@@ -508,3 +508,21 @@ svg{
 .span-2{
 grid-column: span 2;
 }
+
+.mission-wrapper{
+    display:flex;
+    gap:2rem;
+    max-width:1300px;
+    width:100%;
+    margin:2rem auto;
+
+}
+
+.mission-wrapper article{
+    max-width:800px;
+    width:100%;
+    background:var(--white);
+    justify-content: center;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
+    padding:2rem;
+}
