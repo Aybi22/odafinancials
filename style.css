@@ -473,13 +473,23 @@ display:block;
   font-weight: 500;
   width:700px;
 }
+
+.step-box img{
+    width:100px;
+    height:auto;
+    fill:var(--white);
+}
+
+svg{
+    fill:var(--white);
+}
 .step-wrapper{
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:3rem;
     max-width:1300px;
     width:100%;
-    margin:auto;
+    
 }
 
 .number{
