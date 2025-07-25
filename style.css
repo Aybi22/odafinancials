@@ -334,11 +334,15 @@ footer{
 }
 .infos-wrapper{
     display:flex;
-   align-items:start;
+
     justify-content:center;
     gap:3rem;
     border-bottom:2px solid var(--white);
     padding:3rem;
+}
+
+.fa-linkedin{
+    font-size:1.8rem;
 }
 .links li{
     list-style:none;
