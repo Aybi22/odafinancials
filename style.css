@@ -565,7 +565,8 @@ grid-column: span 2;
 .contact-form{
     display:flex;
     justify-content:center;
-   
+    max-width:100%;
+    width:100%;
     gap:6rem;
     padding:2rem;
     background:gainsboro;
@@ -577,7 +578,7 @@ grid-column: span 2;
 }
 
 form{
-    max-width:400px;
+    max-width:600px;
     width:100%;
     background:var(--white);
     padding:2rem;
@@ -602,9 +603,10 @@ input[type="text"]{
     margin-bottom:1rem;
 }
 textarea{
-    min-width:400px;
-    
+    width:400px;
+    max-width:100%;
     margin-bottom:2rem;
+    padding:1rem;
    
 }
 label{
