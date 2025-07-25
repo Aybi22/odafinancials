@@ -241,7 +241,7 @@ section{
     color:var(--black);
     width:300px;
     text-transform:capitalize;
-    font-weight:600;
+    font-weight:700;
    
    
 }
@@ -602,7 +602,7 @@ input[type="text"]{
     margin-bottom:1rem;
 }
 textarea{
-    width:400px;
+    min-width:400px;
     
     margin-bottom:2rem;
    
