@@ -363,6 +363,13 @@ footer{
     display:flex;
     flex-direction: column;
 }
+.booking{
+    color:black;
+    text-align:center;
+    font-size:3rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
 .review-wrapper{
     display:flex;
     justify-content:center;
