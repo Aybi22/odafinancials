@@ -350,6 +350,12 @@ footer{
 .fa-linkedin{
     font-size:1.5rem;
 }
+.slide-section img{
+    width:1200px;
+    height:700px;
+    object-fit:cover;
+    display:block;
+}
 .links a{
     margin-bottom:1rem;
 }
@@ -641,4 +647,32 @@ margin:auto;
 }
 .tel{
     font-size:2rem;
+}
+
+.slider-wrapper{
+    width:1200px;
+    height:600px;
+    margin: auto;
+    position:relative;
+    overflow:hidden;
+   
+}
+.slide img{
+    height:600px;
+    width:1200px;
+    object-fit:cover;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.image-title{
+    position:absolute;
+    top:2rem;
+    background:var(--white);
+    padding:1.5rem;
+    font-weight:900;
 }
