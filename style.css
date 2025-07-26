@@ -713,6 +713,13 @@ margin:auto;
 .start-wrapper p{
     text-transform:lowercase;
 }
+.center{
+    text-align:center;
+    max-width:600px;
+    width:100%;
+    margin:1rem auto;
+    font-size:1.2rem;
+}
 
 .services article{
     display:flex;
