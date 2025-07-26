@@ -688,3 +688,28 @@ margin:auto;
     padding:1.5rem;
     font-weight:900;
 }
+
+.start-wrapper article{
+    display:flex;
+    flex-direction:column;
+    background:#1D4734;
+    color:var(--white);
+    padding:1rem;
+    max-width:400px;
+    width:100%
+}
+.start-wrapper{
+    display:grid;
+    max-width:1300px;
+    width:100%;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    margin:auto;
+}
+
+.start-wrapper h3{
+    margin-bottom:1rem;
+}
+.start-wrapper p{
+    text-transform:lowercase;
+}
