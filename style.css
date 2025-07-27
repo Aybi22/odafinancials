@@ -41,6 +41,7 @@ p{
 .hero{
     display:flex;
     align-items: center;
+    gap:3rem;
 }
 
 .hero-image img{
