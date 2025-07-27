@@ -191,6 +191,7 @@ section{
 }
 .booking-info a.btn{
     width:250px;
+    font-size:1rem;
 }
 .round{
     border-radius:100%;
@@ -669,13 +670,13 @@ margin:auto;
   width: 100%;
 }
 
-.image {
+.slider.image {
   width: 1200px;
   flex-shrink: 0;
   position: relative;
 }
 
-.image img {
+.slider.image img {
   width: 100%;
   height: 500px;
   object-fit:cover;
