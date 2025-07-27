@@ -337,7 +337,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gsap.from(".icons-box", {
         scrollTrigger: {
           trigger: ".value-wrapper",
-          start: "top 85%",
+          start: "top 85%"
         },
         y: 100,
         opacity: 0,
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ease: "power2.out",
         stagger: 0.2
       });
-    });
+    
   
   
   gsap.from(".image", {
@@ -375,7 +375,8 @@ document.addEventListener("DOMContentLoaded", () => {
     stagger:0.2
   });
 
-  gsap.from(".proof .image", {
+
+  gsap.from(".proof .image img", {
     scrollTrigger: {
       trigger: ".proof",
       start: "top 85%",
@@ -388,6 +389,40 @@ document.addEventListener("DOMContentLoaded", () => {
     ease: "power2.out",
     stagger:0.2
   });
+
+
+gsap.from(".booking-info", {
+    scrollTrigger: {
+      trigger: ".booking",
+      start: "top 85%",
+      toggleActions: "play none none none"//ensures the animation only plays once, 
+      // and doesn’t reverse when scrolling back up
+    },
+    opacity: 0,// the image starts hidden
+    y: 80,
+    duration: 1.2,
+    ease: "power2.out",
+    stagger:0.2
+  });
+
+gsap.from(".booking .round", {
+    scrollTrigger: {
+      trigger: ".booking",
+      start: "top 85%",
+      toggleActions: "play none none none"//ensures the animation only plays once, 
+      // and doesn’t reverse when scrolling back up
+    },
+    opacity: 0,// the image starts hidden
+    y: 80,
+    duration: 1.2,
+    ease: "power2.out",
+    stagger:0.2
+  });
+
+
+});
+
+
 </script>
 
   
@@ -399,7 +434,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   
-  </script>
+  
 
 
 
