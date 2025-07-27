@@ -185,6 +185,10 @@ section{
     align-items:center;
     gap:3rem;
     justify-content:center;
+    padding:2rem;
+}
+.booking .image{
+    padding:2rem;
 }
 .booking{
     max-width:100%;
