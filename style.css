@@ -35,6 +35,15 @@ a{
     color:black;
 }
 
+nav a{
+    opacity:1;
+    transition:color 0.5s ease;
+}
+
+nav a:hover{
+    color:#1D4734;
+}
+
 p{
     line-height:1.7;
 }
