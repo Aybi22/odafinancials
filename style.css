@@ -182,8 +182,8 @@ section{
 
 a.btn, .hero a.btn, a.bttn {
     opacity:1;
-    transition: background 0.6s ease,color 0.6s ease;
-    
+    transition: background-color 0.6s ease, color 0.6s ease;
+   
 }
 
 
@@ -191,8 +191,6 @@ a.btn:hover,
 .hero a.btn:hover,
 a.bttn:hover
 {
-
-    
     background:var(--black);
     color:var(--white);
 }
@@ -221,8 +219,11 @@ a.bttn:hover
     object-fit:cover;
 }
 .booking-info a.btn{
-    width:250px;
-    font-size:1rem;
+    width:350px;
+    
+     padding:1.5rem;
+    border-radius:13px;
+    font-size:1.3rem;
 }
 .round{
     border-radius:100%;
@@ -272,9 +273,12 @@ a.bttn:hover
 .hero a.btn{
     background:var(--snow);
     color:var(--black);
-    width:300px;
+    width:350px;
     text-transform:capitalize;
     font-weight:700;
+    padding:1.5rem;
+    border-radius:13px;
+    font-size:1.3rem;
    
    
 }
@@ -523,6 +527,9 @@ display:block;
     font-weight:700;
     text-transform:capitalize;
     margin-top:4rem;
+     padding:1.5rem;
+    border-radius:13px;
+    font-size:1.3rem;
 }
 
 .value-text p{
@@ -787,6 +794,7 @@ margin:auto;
 #services article a.btn{
     margin-top:auto;
     margin-bottom:1rem;
+    width:150px;
 
 }
 #services article img{
