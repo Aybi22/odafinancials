@@ -1024,6 +1024,19 @@ a.btn{
 .services-wrapper h3{
     font-size:1.2rem;
 }
+.review-wrapper h3{
+    display:flex;
+    flex-direction:column;
+    
+}
+  .contact-form{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .tel{
+    font-size:1.5rem;
+  }
 }
 
 
