@@ -50,17 +50,33 @@ p{
 }
 .hero{
     display:flex;
-    align-items: center;
-    gap:3rem;
+    align-items:center;
+   max-width:100%;
+   width:100%;
+    
 }
 
+
+
 .hero-image img{
-    max-width:900px;
+    max-width:1000px;
+    width:100%;
+    height:700px;
+    object-fit:cover;
+  
+}
+   
+.hero-image{
+    max-width:1000px;
     width:100%;
     height:700px;
     object-fit:contain;
     
+   
 }
+
+
+
 
 nav {
     display:flex;
@@ -111,12 +127,21 @@ nav a,li{
     font-size:1rem;
     font-family:Montserrat;
 }
-.hero{
+.hero-info{
  background:var(--gunmetal);
  width:100%;
- max-width:100%;
+ max-width:900px;
  height:700px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
 }
+
+
+
+
+
+
 .image{
     position:relative
 }
@@ -271,15 +296,7 @@ a.bttn:hover
     max-width:700px;
     width:100%;
 }
-.hero-info{
-    display:flex;
-    max-width:900px;
-    width:100%;
-    flex-direction:column;
-    gap:3rem;
-    margin:3rem;
-    padding:1.5rem;
-}
+
 .hero a.btn{
     background:var(--snow);
     color:var(--black);
@@ -294,7 +311,19 @@ a.bttn:hover
    
    
 }
+.hero-content{
+    
+    display:flex;
+    max-width:900px;
+    width:100%;
+    flex-direction:column;
+    gap:3rem;
+    margin-left:2rem;
+}
 
+.hero-content p{
+    width:600px;
+}
 
 .btn{
    background :#1D4734;
@@ -830,7 +859,13 @@ margin:auto;
              .hero{
                 display:flex;
                 flex-direction:column;
+               
+                
              }
+            .hero img{
+                width:100%;
+                height:auto;
+            }
                nav{
                 display:flex;
                 flex-direction:column;
@@ -838,10 +873,10 @@ margin:auto;
            .hero h1{
             font-size:3rem;
            }
-           .hero p{
+           .hero-content p{
             font-size:1rem;
            }
-          .hero a.btn, .booking-info a.btn{
+          .hero-content a.btn, .booking-info a.btn{
             font-size:0.8rem;
             padding:0.9rem;
           }
@@ -881,8 +916,14 @@ margin:auto;
   nav ul{
     display:flex;
     flex-direction:column;
+    align-items:center;
+    padding:1rem;
   }
+.infos-wrapper{
+    display:flex;
+    flex-direction:column;
 
+}
 
 }
 
