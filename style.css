@@ -357,6 +357,7 @@ a.bttn:hover
 
 .value-wrapper{
     display:flex;
+    flex-wrap:wrap;
     max-width:100%;
     width:100%;
    justify-content:space-between;
@@ -1060,4 +1061,58 @@ a.btn{
     align-items: center;
     width:100%;
   }
+  .hero-content{
+    padding:1rem;
+  }
+
+  .hero-content p{
+    font-size:1rem;
+  }
+ .section-info{
+    font-size:1.5rem;
+    width:80%;
+ }
+  h1{
+    font-size:2.5rem;
+  }
+  .offer-info{
+    margin:auto;
+  }
+.image-info p{
+    font-size:1rem;
+}
+.special{
+    font-size:2.5rem;
+}
+.text-info{
+    width:70%;
+}
+
+.review-wrapper h3{
+    display:flex;
+    flex-direction:column;
+    
+}
+  .bold{
+    font-size:1rem;
+  }
+
+a.bttn, a.btn{
+    font-size:0.9rem;
+    padding:0.8rem;
+    width:70%;
+}
+.hero-content a.btn{
+    padding:0.8rem;
+}
+.step-box h3{
+    font-size:1.2rem;
+}
+
+.step-box p{
+    font-size: 0.8rem;
+   
+   width:80%;
+}
+
 }
