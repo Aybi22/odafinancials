@@ -319,6 +319,7 @@ a.bttn:hover
     padding:1rem;
     max-width:100%;
     min-height:500px;
+    background:gainsboro;
 }
 .text{
     display:flex;
@@ -418,13 +419,14 @@ a.bttn:hover
     gap:3rem;
     height:500px;
 
-  border: 1px solid #ddd; /* Light border */
+  border: 3px solid #1D4734 ; /* Light border */
   border-radius: 12px;    /* Rounded corners */
   padding:20px;
   background-color: #fff; /* Optional: white cards */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); /* Soft shadow */
   transition: transform 0.3s ease;
   cursor:pointer;
+  border:1px solid #ddd;
 }
 
 
