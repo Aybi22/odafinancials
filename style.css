@@ -282,17 +282,40 @@ a.bttn:hover
 }
 .parallax{
     background-image: url(images/parallax.webp);
-    background-position: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position:relative;
     width:100%;
     height:600px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
+.parallax::before{
+        content:"";
+        position:absolute;
+        inset:0;/*top: 0; right: 0; bottom: 0; left: 0;*/;
+        background:rgba(0, 0, 0, 0.5); /* dark overlay */;
+        z-index:1;
 
 
+}
 
+.parallax >*{
+        z-index:2;
+        position:relative;
+        color:var(--white);
+        font-size:2rem;
+        max-width:1000px;
+        width:100%;
+        font-weight:700;
+        text-align:center;
+        text-transform: uppercase;
+       
+}
 
 .special{
     font-size:4.6rem;
@@ -402,9 +425,7 @@ a.bttn:hover
     flex-direction:column;
     align-items:center;
 }
-.parallax{
-   filter:brightness(45%);
-}
+
 .value a.btn{
     margin:auto;
 }
