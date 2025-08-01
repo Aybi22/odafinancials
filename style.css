@@ -35,7 +35,13 @@ a{
     text-decoration:none;
     color:black;
 }
-
+a.btn:not(nav a.btn){
+   width:350px;
+    
+     padding:1.5rem;
+    border-radius:13px;
+    font-size:1.3rem; 
+}
 nav a{
     opacity:1;
     transition:color 0.5s ease;
@@ -256,6 +262,7 @@ a.bttn:hover
     justify-content: center;
     gap:4rem;
    margin-bottom:2rem;
+   
 }
 .booking img{
     width:500px;
@@ -371,7 +378,18 @@ a.bttn:hover
     width:100%;
    justify-content:space-between;
    gap:3rem;
+   margin-bottom:2rem;
   
+}
+
+.value{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.value a.btn{
+    margin:auto;
 }
 .box-para{
     font-size:1rem;
