@@ -233,7 +233,8 @@ a.btn, .hero a.btn, a.bttn {
 }
 .mission-wrapper a.btn{
     margin:2rem;
-    width:70%;
+    max-width:70%;
+    width:100%;
     border-radius:13px; 
 }
 
