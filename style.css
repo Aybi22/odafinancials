@@ -866,7 +866,8 @@ margin:auto;
 .image-title{
     position:absolute;
     top:2rem;
-    background:var(--white);
+    background:#1D4734;
+    color:var(--white);
     padding:1.5rem;
     font-weight:900;
 }
@@ -951,7 +952,6 @@ h3{
 
 
 
-
 #services {
   scroll-margin-top: 80px; /* adjust based on nav height */
 }
@@ -960,6 +960,13 @@ h3{
     .hero-content a.btn{
         font-size:0.3rem;
     }
+
+.center{
+    font-size:1rem;
+    padding:1rem;
+}
+
+
 }
 
 
@@ -972,6 +979,13 @@ h3{
               
                 
              }
+
+              .center{
+    font-size:1rem;
+    padding:1rem;
+}
+
+
             
             .hero img{
                 width:100%;
@@ -1141,7 +1155,9 @@ a.btn{
     font-size:1rem;
     padding:1rem;
 }
-
+ a.bttn{
+    width:70% !important;
+}
         
 }
 
@@ -1208,5 +1224,8 @@ a.bttn, a.btn{
    
    width:80%;
 }
+
+
+
 
 }
