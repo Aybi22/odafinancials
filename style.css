@@ -363,18 +363,17 @@ a.bttn:hover
     padding:1.5rem;
     border-radius:13px;
     font-size:1.3rem;
-    
-   
-   
-}
-.hero-content{
+    }
+
+    .hero-content{
     
     display:flex;
     max-width:900px;
     width:100%;
     flex-direction:column;
     gap:3rem;
-    margin-left:2rem;
+    padding:2rem;
+   
 }
 
 .hero-content p{
@@ -1041,6 +1040,9 @@ h3{
     font-size:1rem;
 }
    
+.hero-content{
+    align-items: center;
+}
 
 .booking{
     display:flex;
