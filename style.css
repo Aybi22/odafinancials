@@ -972,6 +972,7 @@ h3{
               
                 
              }
+            
             .hero img{
                 width:100%;
                 height:auto;
@@ -1135,6 +1136,7 @@ a.btn{
 
 .parallax-content p{
     font-size:1rem;
+    padding:1rem;
 }
 
         
