@@ -410,10 +410,10 @@ a.btn{
    
 
 .value-wrapper{
-    display:flex;
-    flex-wrap:wrap;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
-    max-width:100%;
+    max-width:1300px;
     width:100%;
    justify-content:space-between;
    gap:3rem;
@@ -427,8 +427,9 @@ a.btn{
     align-items:center;
 }
 
-.value a.btn{
+.value-wrapper a.btn{
     margin:auto;
+    width:350px;
 }
 .box-para{
     font-size:1rem;
@@ -1023,11 +1024,16 @@ h3{
             height:300px;
         }
         
-      .value-wrapper,.review-wrapper, .proof{
+      .review-wrapper, .proof{
         display:flex;
         flex-direction:column;
         margin:auto;
         padding:1rem;
+      }
+
+      .value-wrapper{
+        display:grid;
+        grid-template-columns: 1fr;
       }
     
     .special{
