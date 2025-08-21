@@ -415,25 +415,26 @@ a.btn{
 .value-wrapper{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
+  
     max-width:1300px;
     width:100%;
    justify-content:space-between;
-   gap:3rem;
+   gap:2rem;
    margin-bottom:2rem;
+   margin:auto;
   
 }
 
-.value{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-      
+
+
+.value-wrapper article{
+  
 }
 
 .value-wrapper a.btn{
-    margin:auto;
-    width:350px;
+    display:block;
+    
+  
 }
 .box-para{
     font-size:1rem;
