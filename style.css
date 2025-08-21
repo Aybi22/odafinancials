@@ -580,7 +580,7 @@ footer{
   transform: translateY(0);
 }
 
-.icons-box h3{
+.icons-box h3, #services article h3{
     text-transform: uppercase;
     margin-bottom:1rem;
     margin-top: 1rem;
@@ -927,7 +927,8 @@ margin:auto;
     box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
     max-width:500px;
     width:100%;
-    min-height:600px;
+    min-height:700px;
+     border: 2px solid #1D4734 ;
 }
 
 #services article p{
@@ -946,8 +947,8 @@ margin:auto;
 
 #services article a.btn{
     margin-top:auto;
-    margin-bottom:1rem;
-    max-width:150px;
+    margin-bottom:2rem;
+    max-width:100%;
     width:100%;
 
 }
