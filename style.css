@@ -376,6 +376,7 @@ a.bttn:hover
     flex-direction:column;
     gap:3rem;
     padding:2rem;
+    margin:2rem;
    
 }
 
