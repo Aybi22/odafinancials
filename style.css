@@ -327,7 +327,7 @@ a.bttn:hover
     text-transform: uppercase;
 }
 .proof img{
-    width:300px;
+    width:700px;
     height:auto;
     object-fit:cover;
 }
@@ -391,7 +391,7 @@ a.btn{
     color:var(--white);
     text-align:center;
     padding:13px 14px;
-    max-width:150px;
+   max-width:650px;
     width:100%;
     font-weight:700;
     text-transform:capitalize;
@@ -406,7 +406,7 @@ a.btn{
 }
 .offer-info img{
     width:600px;
-    height:500px;
+    height:350px;
     display:block;
     object-fit:cover;
 }
@@ -418,18 +418,26 @@ a.btn{
   
     max-width:1300px;
     width:100%;
-   justify-content:space-between;
-   gap:2rem;
+gap:3rem;
+
    margin-bottom:2rem;
    margin:auto;
   
 }
 
+.book-para{
 
-
-.value-wrapper article{
-  
+    font-size:1.2rem;
+    max-width:70%;
+    width:100%;
+    text-align:left;
 }
+.value-wrapper article{
+    display:flex;
+    flex-direction:column;
+}
+
+
 
 .value-wrapper a.btn{
     display:block;
