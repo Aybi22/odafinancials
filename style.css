@@ -333,7 +333,7 @@ a.bttn:hover
 }
 
 .text-info{
-    
+    font-weight:600;
     font-size:1.5rem;
 }
 
@@ -342,7 +342,7 @@ a.bttn:hover
     align-items: center;
     justify-content: space-around;
     background:var(--white);
-    padding:1rem;
+    padding:2rem;
     max-width:100%;
     min-height:500px;
     background:gainsboro;
