@@ -276,20 +276,21 @@ a.bttn:hover
     gap:3rem;
     justify-content:center;
     padding:2rem;
+   
+    max-width:700px;
+    width:100%;
 }
 .booking .image{
-    padding:2rem;
-}
-.booking{
-    max-width:100%;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    gap:4rem;
- background-color: #1D4734;
-
    
 }
+.booking{
+    max-width:1300px;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:auto;
+}
+
 .booking img{
     width:500px;
     height:300px;
@@ -301,9 +302,11 @@ a.bttn:hover
      padding:1.5rem;
     border-radius:13px;
     font-size:1.3rem;
+    background:#1D4734;
+    color:white;
 }
 .round{
-    border-radius:100%;
+  
     
 }
 .parallax{
@@ -348,7 +351,7 @@ a.bttn:hover
     font-family: Montserrat;
     font-weight:900;
     text-transform: uppercase;
-    color:white;
+    color:black;
 }
 
 .proof .special{
@@ -372,6 +375,7 @@ a.bttn:hover
     font-weight:600;
     font-size:1.5rem;
     margin-bottom:1rem;
+    color:black;
 }
 
 .proof{
@@ -465,7 +469,8 @@ a.btn{
     max-width:70%;
     width:100%;
     text-align:left;
-    color:white;
+    color:black;
+   
 }
 
 .proof .text-info{
@@ -492,7 +497,7 @@ a.btn{
 }
 
   .text-info{
-    color:white;
+    color:black;
   }  
 
 
@@ -605,13 +610,7 @@ footer{
     display:flex;
     flex-direction: column;
 }
-.booking{
-    color:black;
-    text-align:center;
-    font-size:3rem;
-    margin-top:2rem;
-    margin-bottom:2rem;
-}
+
 .review-wrapper{
     display:flex;
     justify-content:center;
