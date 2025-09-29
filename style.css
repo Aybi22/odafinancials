@@ -94,7 +94,7 @@ p{
 .review-pic{
     width:200px;
     height:200px;
-    
+    margin-bottom:1rem;
     object-fit:contain;
 }
 
@@ -578,9 +578,12 @@ footer{
     display:flex;
     justify-content:center;
     gap:10rem;
-   
+   max-width:1300px;
+   margin:auto;
+   background:#F6EBE4;
+   padding:3rem;
 
-    padding:1rem;
+    
 
 }
 .review-wrapper h3{
