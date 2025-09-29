@@ -97,6 +97,11 @@ p{
     margin-bottom:1rem;
     object-fit:contain;
 }
+.review-wrapper article{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
 
 
 nav {
