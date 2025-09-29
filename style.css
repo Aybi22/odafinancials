@@ -286,7 +286,8 @@ a.bttn:hover
     display:flex;
     justify-content: center;
     gap:4rem;
-   margin-bottom:2rem;
+ background-color: #1D4734;
+
    
 }
 .booking img{
@@ -342,14 +343,27 @@ a.bttn:hover
        
 }
 
-.special{
+.booking-info .special{
     font-size:4.6rem;
     font-family: Montserrat;
     font-weight:900;
     text-transform: uppercase;
+    color:white;
 }
+
+.proof .special{
+    color:black;
+     font-size:3rem;
+    font-family: Montserrat;
+    font-weight:900;
+    text-transform: uppercase;
+}
+
+
+
+
 .proof img{
-    width:600px;
+    width:400px;
     height:auto;
     object-fit:cover;
 }
@@ -365,7 +379,7 @@ a.bttn:hover
     align-items: center;
     justify-content: space-around;
     background:var(--white);
-   min-height:800px;
+    padding:23px;
     max-width:100%;
   
     background:#F6EBE4;
@@ -445,15 +459,31 @@ a.btn{
     margin:auto;
 }
 
-.book-para{
+.booking-info .book-para{
 
     font-size:1.2rem;
     max-width:70%;
     width:100%;
     text-align:left;
+    color:white;
+}
+
+.proof .text-info{
+    font-size:1.2rem;
+    max-width:70%;
+    width:100%;
+    text-align:left;
+    color:black;
 }
 
 
+
+
+
+.booking .btn{
+    background:#FDF5F5;
+    color:black;
+}
 
 .value-wrapper a.btn{
     display:block;
@@ -461,12 +491,15 @@ a.btn{
   
 }
 
-    
+  .text-info{
+    color:white;
+  }  
 
 
 .box-para{
     font-size:1rem;
     line-height:1.7;
+    color:white;
 }
 .icons-box{
     display:flex;
@@ -476,9 +509,9 @@ a.btn{
    
 
   border: 3px solid #1D4734 ; /* Light border */
-  border-radius: 12px;    /* Rounded corners */
+    /* Rounded corners */
   padding:33px;
-  background-color: #fff; /* Optional: white cards */
+   /* Optional: white cards */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); /* Soft shadow */
   transition: transform 0.3s ease;
   cursor:pointer;
@@ -492,7 +525,7 @@ a.btn{
 
 
 .icons-box img{
-    max-width:200px;
+    max-width:100px;
     width:100%;
     object-fit:cover;
     display:block;
