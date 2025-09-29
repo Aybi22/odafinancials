@@ -45,7 +45,7 @@ Simplify your finances with expert tax preparation, accounting, and financial ad
 <body>
 <div id="headnav"></div>
 
-<section class="hero">
+<div class="hero">
 <article class="hero-info">
 
   <div class="hero-content">
@@ -68,7 +68,7 @@ Simplify your finances with expert tax preparation, accounting, and financial ad
 
   </article>
 
-</section>
+</div>
 
 
 <section>
@@ -178,8 +178,6 @@ We uphold the highest ethical standards, ensuring honesty,
 transparency, and confidentiality in all our work.
 </p>
 
-
-
 </article>
 
 
@@ -192,11 +190,7 @@ transparency, and confidentiality in all our work.
   through open communication and teamwork.  
 </p>
 
-
-
 </article>
-
-
 
 
 <article class="icons-box">
@@ -207,13 +201,7 @@ transparency, and confidentiality in all our work.
   our work to ensure the highest quality of service for our clients.  
 </p>
 
-
-
 </article>
-
-
-
-
 
 <article class="icons-box">
 <h3>improvement</h3>
@@ -223,16 +211,10 @@ transparency, and confidentiality in all our work.
   best practices and provide cutting-edge solutions.  
 </p>
 
-
-
 </article>
 
+
 </div>
-
-
-
-
-
 
 </section>
 
@@ -254,9 +236,6 @@ the AAT, ICPA and ACCA</p>
 </div>
 
 
-
-
-
 <div class="image">
 <img src="images/ACCAApprovedLogo.png"  width="500" height="400"  alt="ACCA Approved Employer logo, which features the text ACCA in a red square surrounded by the words Approved Employer in red text. The background is a plain white color.">
 
@@ -275,6 +254,10 @@ the AAT, ICPA and ACCA</p>
 
 <div class="review-wrapper">
   <article>
+    <div class="image">
+
+      <img src="images/user3.webp"  class="review-pic">
+    </div>
 <h3>Emily Harper – <span class="job">CEO of Maplewood Interiors</span></h3>
 <div class="stars">
 <i class="fa-solid fa-star"></i>
@@ -293,7 +276,13 @@ the AAT, ICPA and ACCA</p>
 </article>
 
 <article>
-<h3>James Lawson –<span class="job"> Managing Director, <br>Clear Skies Construction</span></h3>
+
+<div class="image">
+
+      <img src="images/user1.webp"  class="review-pic">
+    </div>
+
+<h3>James Lawson –<span class="job"> Managing Director, Clear Skies Construction</span></h3>
 <div class="stars">
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
@@ -368,7 +357,7 @@ the AAT, ICPA and ACCA</p>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-      gsap.registerPlugin(ScrollTrigger);
+    /*  gsap.registerPlugin(ScrollTrigger);
 
       gsap.from(".icons-box", {
         scrollTrigger: {
@@ -382,7 +371,7 @@ document.addEventListener("DOMContentLoaded", () => {
         stagger: 0.2
       });
     
-  
+  */
   
   gsap.from(".image", {
       scrollTrigger: {
