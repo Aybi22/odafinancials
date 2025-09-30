@@ -386,7 +386,7 @@ a.bttn:hover
     padding:23px;
     max-width:100%;
   
-    background:#F6EBE4;
+    background:var(--snow);
 }
 .text{
     display:flex;
