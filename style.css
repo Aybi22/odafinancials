@@ -222,6 +222,9 @@ h2{
     font-weight:900;
 }
 
+.booking h2{
+    text-align:left;
+}
 h3{
     text-transform:capitalize;
     font-family: 'Montserrat';
@@ -272,7 +275,7 @@ a.bttn:hover
 .booking-info{
     display:flex;
     flex-direction:column;
-    align-items:center;
+    
    
     justify-content:center;
     padding:1rem;
