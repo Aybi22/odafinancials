@@ -853,7 +853,7 @@ grid-column: span 2;
     width:100%;
     gap:6rem;
     padding:2rem;
-    background:gainsboro;
+    background:var(--snow);
 }
 
 .contact-para{
