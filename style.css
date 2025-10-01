@@ -257,6 +257,7 @@ a.btn, .hero a.btn, a.bttn {
     display:flex;
     flex-direction:column;
     align-items:center;
+    background-color: var(--snow);
 }
 .mission-wrapper a.btn{
     margin:2rem;
@@ -699,6 +700,9 @@ footer{
  padding:33px;
 
 }
+.mission-info article{
+    background:var(--snow);
+}
 
 .certificates img{
     max-width:300px;
@@ -839,6 +843,7 @@ grid-column: span 2;
     justify-content: center;
     box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
     padding:2rem;
+    background: var(--snow);
 }
 
 .contact-form{
