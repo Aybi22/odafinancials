@@ -516,7 +516,7 @@ a.btn{
     flex-direction:column;
     align-items: center;
     gap:3rem;
-   
+    background:var(--snow);
 
   border: 3px solid #1D4734 ; /* Light border */
     /* Rounded corners */
