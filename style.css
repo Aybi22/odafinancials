@@ -986,7 +986,8 @@ margin:auto;
     margin-bottom:1rem;
 }
 .start-wrapper p{
-    
+    text-transform:uppercase;
+    font-weight:700;
     max-width:500px;
     width:100%;
 }
