@@ -986,9 +986,16 @@ margin:auto;
     margin-bottom:1rem;
 }
 .start-wrapper p{
-    text-transform:lowercase;
+    
     max-width:500px;
     width:100%;
+}
+
+.start-wrapper article img{
+     width:150px;
+    height:200px;
+    object-fit:contain;
+    margin:auto;
 }
 .center{
     text-align:center;
