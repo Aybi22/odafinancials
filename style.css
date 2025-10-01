@@ -1003,7 +1003,7 @@ margin:auto;
     flex-direction:column;
     align-items:center;
     gap:1rem;
-    background:var(--white);
+    background:var(--snow);
     padding:1rem;
     box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
     max-width:500px;
