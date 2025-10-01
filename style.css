@@ -990,6 +990,7 @@ margin:auto;
     font-weight:700;
     max-width:500px;
     width:100%;
+    flex:1;
 }
 
 .start-wrapper article img{
