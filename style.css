@@ -969,7 +969,7 @@ margin:auto;
     flex-direction:column;
     background:#1D4734;
     color:var(--white);
-    padding:1rem;
+    padding:2rem;
     max-width:400px;
     width:100%
 }
