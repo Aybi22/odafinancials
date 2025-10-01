@@ -695,7 +695,7 @@ footer{
     flex-wrap:wrap;
     justify-content: center;
     gap:3rem;
- background:#F6EBE4;
+ background:var(--snow);
  padding:33px;
 
 }
