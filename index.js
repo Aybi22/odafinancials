@@ -1,3 +1,26 @@
+
+
+
+fetch('services.json')
+.then(response=>response.json())
+.then(data=>{
+  console.log(data);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 fetch(" ./header.html")
   .then((response) => response.text())
   .then((html) => {

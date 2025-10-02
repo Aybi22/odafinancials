@@ -1,0 +1,37 @@
+[
+
+{
+  "id":1,
+ "image":"images/bookeep.webp",
+  "name":"bookkeeping",
+  "price":99
+},
+
+
+{
+  "id":2,
+ "image":"images/cashflow.webp",
+  "name":"cashflow management",
+  "price":99
+},
+
+
+{
+  "id":3,
+ "image":"images/budgeting.webp",
+  "name":"budgeting",
+  "price":99
+},
+
+
+{
+  "id":4,
+ "image":"images/taxprepa.webp",
+  "name":"tax preparation",
+    "price":99
+
+}
+
+
+
+]
