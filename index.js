@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setInterval(nextSlide, 5000);
 });
-
+/*
 document.addEventListener("DOMContentLoaded", () => {
   fetch("services.json")
     .then((response) => response.json())
@@ -54,14 +54,25 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 });
+*/
+fetch("serviceCard.json")
+  .then((response) => response.json())
+  .then((serviceCard) => {
+    serviceCard.forEach((card) => {
+      let serviceWrapper = document.querySelector(".services-wrapper");
+      serviceWrapper.innerHTML += `
+    
+   
+      <article>
+       <h3>${card.h3}</h3>
+    <div class="image">
+    <img src="${card.image}">
+    
+    </div>
+<p>${card.description}</p>
 
-document.addEventListener("DOMContentLoaded", () => {
-  let btns = document.querySelectorAll(".btn");
-  console.log(btns);
-  btns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      let serviceName = btn.dataset.id;
-      console.log(serviceName);
+<a class="btn" data-id="${card.id}" href= rates.html?id="${card.id}">see pricing</a>
+</article>
+    `;
     });
   });
-});

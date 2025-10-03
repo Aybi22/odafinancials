@@ -983,6 +983,7 @@ margin:auto;
     grid-template-columns: repeat(3,1fr);
     gap:2rem;
     margin:auto;
+    place-items: center;
 }
 
 .start-wrapper h3{
