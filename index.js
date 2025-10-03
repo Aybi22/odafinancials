@@ -1,34 +1,11 @@
-
-
-
-fetch('services.json')
-.then(response=>response.json())
-.then(data=>{
-  console.log(data);
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-fetch(" ./header.html")
+fetch("header.html")
   .then((response) => response.text())
   .then((html) => {
     let headnav = document.getElementById("headnav");
     headnav.innerHTML = html;
   });
 
-fetch(" ./footer.html")
+fetch("footer.html")
   .then((response) => response.text())
   .then((html) => {
     let footer = document.getElementById("footer");
@@ -59,4 +36,32 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   setInterval(nextSlide, 5000);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("services.json")
+    .then((response) => response.json())
+    .then((services) => {
+      services.forEach((service) => {
+        let serviceContainer = document.querySelector(".services-container");
+        console.log(serviceContainer);
+        serviceContainer.innerHTML += `
+    
+      <img src="${service.image}">
+    
+    
+    `;
+      });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  let btns = document.querySelectorAll(".btn");
+  console.log(btns);
+  btns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      let serviceName = btn.dataset.id;
+      console.log(serviceName);
+    });
+  });
 });
