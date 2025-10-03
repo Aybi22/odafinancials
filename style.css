@@ -985,6 +985,20 @@ margin:auto;
     margin:auto;
     place-items: center;
 }
+.details{
+    display:flex;
+    flex-direction:column;
+    max-width:700px;
+    margin:auto;
+    align-items:center;
+    gap:1rem;
+    padding:43px;
+}
+pre{
+    width:500px;
+    margin:23px auto;
+    background:#1D4734;
+}
 
 .start-wrapper h3{
     margin-bottom:1rem;

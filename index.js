@@ -71,7 +71,7 @@ fetch("serviceCard.json")
     </div>
 <p>${card.description}</p>
 
-<a class="btn" data-id="${card.id}" href= rates.html?id="${card.id}">see pricing</a>
+<a class="btn" data-id="${card.id}" href= "rates.html?id=${card.id}">see pricing</a>
 </article>
     `;
     });
