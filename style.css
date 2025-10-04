@@ -129,7 +129,7 @@ header{
 }
 
 
-ul{
+nav ul{
     display:flex;
     gap:3rem;
 
@@ -985,6 +985,8 @@ margin:auto;
     margin:auto;
     place-items: center;
 }
+
+/*
 .details{
     display:flex;
     flex-direction:column;
@@ -994,11 +996,115 @@ margin:auto;
     gap:1rem;
     padding:43px;
 }
+    */
 pre{
-    width:500px;
-    margin:23px auto;
+    max-width:100%;
+    width:100%;
+    color:white;
+
+    
     background:#1D4734;
 }
+pre .pre-content{
+    margin:auto;
+    max-width:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.card-container{
+   
+    max-width:1300px;
+    width:100%;
+
+  
+}
+.card-container img{
+   
+}
+.pricing{
+line-height:1.6rem;
+
+    
+}
+.pricing h4{
+    
+}
+
+.pricing-section .btn{
+   
+}
+.details{
+   
+}
+.service-card{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+     padding:2rem;
+    
+     margin:auto;
+    
+}
+
+.service-name{
+    border-bottom:1px solid black;
+   
+    padding-bottom:2rem;
+   
+}
+
+.service-block{
+    display:flex;
+    align-items:flex-start;
+   gap:3rem;
+   height:400px;
+   max-width:100%;
+    width:100%;
+    margin:auto;
+   
+}
+
+.service-block img{
+    width:650px;
+    height:400px;
+    display:block;
+    object-fit:cover;
+}
+
+.pricing-section{
+    display:flex;
+    flex-direction:column;
+    gap:1.3rem;
+}
+
+.service-card p{
+    max-width:650px;
+    width:100%;
+}
+.image-box{
+    display:flex;
+    flex-direction:column;
+}
+
+.card-container{
+     max-width:100%;
+    width:100%;
+  
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+   }
+
+     
+   .bold-title{
+    text-transform:capitalize;
+    font-weight:700;
+   
+    text-align:left;
+   }
 
 .start-wrapper h3{
     margin-bottom:1rem;
@@ -1111,7 +1217,11 @@ h3{
                 width:90%;
              }
 
-             
+             .service-block{
+                display:flex;
+                flex-direction:column;
+                height:auto;
+             }
              .icons-box{
                 width:90%;
                 margin:auto;

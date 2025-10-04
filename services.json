@@ -4,7 +4,8 @@
   "id":1,
  "image":"images/bookeep.webp",
   "name":"bookkeeping",
-  "price":99
+  "price":99,
+  "description":"Get your financial records on track with a detailed bookkeeping review. Our experts will assess your current system, provide insights, and suggest improvements for effective financial management."
 },
 
 
@@ -12,23 +13,28 @@
   "id":2,
  "image":"images/cashflow.webp",
   "name":"cashflow management",
-  "price":99
+  "price":99,
+  "description":"Take control of your business finances with our tailored cash flow management solutions. We help you track income and expenses and forecast future cash needs."
 },
 
 
 {
   "id":3,
  "image":"images/budgeting.webp",
-  "name":"budgeting",
-  "price":99
+  "name":"budgeting & forecasting",
+  "price":99,
+  "description":"Gain full visibility and control over your finances with our tailored budgeting and forecasting services"
+
+
 },
 
 
 {
-  "id":4,
+"id":4,
  "image":"images/taxprepa.webp",
   "name":"taxpreparation",
-    "price":99
+  "price":99,
+  "description":"Plan your taxes efficiently with our expert services. We help you navigate the complexities of tax regulations to minimize liabilities and ensure compliance."
 
 }
 
