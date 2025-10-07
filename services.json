@@ -18,8 +18,24 @@
 },
 
 
+
+
 {
-  "id":3,
+"id":3,
+ "image":"images/taxprepa.webp",
+  "name":"taxpreparation",
+  "price":99,
+  "description":"Plan your taxes efficiently with our expert services. We help you navigate the complexities of tax regulations to minimize liabilities and ensure compliance."
+
+},
+
+
+
+
+
+
+{
+  "id":4,
  "image":"images/budgeting.webp",
   "name":"budgeting & forecasting",
   "price":99,
@@ -29,14 +45,6 @@
 },
 
 
-{
-"id":4,
- "image":"images/taxprepa.webp",
-  "name":"taxpreparation",
-  "price":99,
-  "description":"Plan your taxes efficiently with our expert services. We help you navigate the complexities of tax regulations to minimize liabilities and ensure compliance."
-
-}
 
 
 
