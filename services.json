@@ -12,7 +12,7 @@
 {
   "id":2,
  "image":"images/cashflow.webp",
-  "name":"Cashflow management",
+  "name":"Cashflowmanagement",
   "price":99,
   "description":"Take control of your business finances with our tailored cash flow management solutions. We help you track income and expenses and forecast future cash needs."
 },
@@ -37,7 +37,7 @@
 {
   "id":4,
  "image":"images/budgeting.webp",
-  "name":"Budgeting & Forecasting",
+  "name":"Budgeting&Forecasting",
   "price":99,
   "description":"Gain full visibility and control over your finances with our tailored budgeting and forecasting services"
 
