@@ -43,9 +43,15 @@
 
 <body>
 
+    <p class="booking-message"></p>
+
 
 <form method="GET"  action="booking.html" class="booking-form">
 
+    
+    
+    
+    
     <p>
 
 <label for="name">Fullname:</label>
@@ -59,20 +65,30 @@
 </p>
 
 
+
+
+
+
+
+
 <p>
 
 <label for="phone">Phone Number:</label>
-<input type="text" name="phone" id="phone">
+<input type="text" name="phone" id="phone"  required>
 </p>
 <p>
 <label for="date">Preferred date:</label>
-<input type="date" name="date" id="date">
+<input type="date" name="date" id="date"   required> 
 </p>
+
+
+
+
 
 <p>
 
 <label for="time">Preferred time:</label>
-<input type="time" name="time" id="time">
+<input type="time" name="time" id="time" required> 
 </p>
 
 <p>
@@ -87,7 +103,20 @@
 </form>
 
 
+<script>
 
+let params=new URLSearchParams(window.location.search);
+let name=params.get('name');
+
+
+let bookingMessage=document.querySelector('.booking-message');
+bookingMessage.innerHTML=`Thank you, fill the form below to book your <strong> ${name}</strong> service`;
+
+
+
+
+
+</script>
 
 
 

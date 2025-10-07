@@ -45,7 +45,7 @@ fetch("services.json")
  <li>Designed for growing businesses</li>
 
 </ul>
-<a class="btn">book now</a>
+<a class="btn"  href=booking.html?name=${thisService.name}>book now</a>
 
 
 
