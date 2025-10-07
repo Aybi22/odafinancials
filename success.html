@@ -42,68 +42,52 @@
 
 
 <body>
+<div class="detail">
+<div class="content">
+<p class="success-message"></p>
 
-    <p class="booking-message"></p>
-
-
-<form method="GET"  action="success.html" class="booking-form">
-
-    
-    
-    
-    
-    <p>
-
-<label for="name">Fullname:</label>
-<input type="text" name="fullname" id="fullname">
-</p>
-
-<p>
-
-<label for="email">Email Adress:</label>
-<input type="text" name="email" id="email">
-</p>
-
-<p>
-
-<label for="phone">Phone Number:</label>
-<input type="text" name="phone" id="phone"  required>
-</p>
-<p>
-<label for="date">Preferred date:</label>
-<input type="date" name="date" id="date"   required> 
-</p>
+<h3>order details</h3>
 
 
-<p>
-
-<label for="time">Preferred time:</label>
-<input type="time" name="time" id="time" required> 
-</p>
-
-<p>
-<label for="notes"> Additional notes</label>
-<textarea placeholder="let us know of you have any specific questions or concerns"></textarea>
-</p>
-
-<button type="submit" class="btn">submit</button>
+<div class="order-infos">
 
 
+</div>
 
-</form>
+</div>
+</div>
 
 
 <script>
 
-let params=new URLSearchParams(window.location.search);
-let name=params.get('name');
+let params= new URLSearchParams(window.location.search);
+let fullname=params.get('fullname');
+let email=params.get('email');
+let date=params.get('date');
+let time=params.get('time');
 
-localStorage.setItem('text',name);
-console.log(text);
+
+let savedText=localStorage.getItem('text');
+
+let successMessage= document.querySelector('.success-message');
+successMessage.innerHTML= `Thank you for booking  your <strong>${savedText}</strong> service`;
 
 
-let bookingMessage=document.querySelector('.booking-message');
-bookingMessage.innerHTML=`Thank you, fill the form below to book your <strong> ${name}</strong> service`;
+let orderInfo=document.querySelector('.order-infos');
+if(fullname && email && date && time){
+orderInfo.innerHTML=`
+
+<ul class="detail-list">
+<li> Name: ${fullname} </li>
+<li> Email: ${email}</li>
+<li> Date: ${date}</li>
+<li>Time: ${time}</li>
+
+</ul>`
+}
+
+
+
 
 
 
@@ -113,9 +97,13 @@ bookingMessage.innerHTML=`Thank you, fill the form below to book your <strong> $
 
 
 
-</body>
 
 
 
 
-</html>
+    </body>
+
+
+
+
+    </html>

@@ -253,7 +253,14 @@ h3{
     width:100%;
     margin:auto;
 }
-
+.detail{
+    background:var(--snow);
+    max-width:900px;
+    width:100%;
+    margin:auto;
+    padding:2rem;
+    
+}
 .booking-form p{
   display:flex;
   justify-content:space-between;
@@ -261,6 +268,12 @@ h3{
 }
 .booking-message{
     text-align:center;
+}
+.content{
+  
+}
+.detail-list li{
+    line-height:1.5;
 }
 
 a.btn, .hero a.btn, a.bttn {
