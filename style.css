@@ -252,6 +252,7 @@ h3{
     max-width:700px;
     width:100%;
     margin:auto;
+    background: var(--snow);
 }
 .detail{
     background:var(--snow);
@@ -259,8 +260,28 @@ h3{
     width:100%;
     margin:auto;
     padding:2rem;
+   
     
 }
+
+button[class=btn]{
+    background:#1D4734;
+    color:white;
+    border:none;
+    width:200px;
+    padding: 13px;
+    cursor:pointer;
+    text-transform: capitalize;
+    font-weight:700;
+}
+
+.page-container{
+    display:flex;
+    flex-direction: column;
+    border:1px solid red;
+}
+
+
 .booking-form p{
   display:flex;
   justify-content:space-between;
@@ -500,7 +521,7 @@ a.btn{
 .booking-info .book-para{
 
     font-size:1.2rem;
-    max-width:70%;
+    max-width:90%;
     width:100%;
     text-align:left;
     color:black;
@@ -579,11 +600,15 @@ a.btn{
     color:black;
    
 }
+.detail{
+    padding:43px;
+}
 
 footer{
     background:var(--gunmetal);
    padding: 2rem;
     color:var(--white);
+   
 }
 
 .contacts{
