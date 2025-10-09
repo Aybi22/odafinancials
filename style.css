@@ -1038,7 +1038,8 @@ margin:auto;
     color:var(--white);
     padding:2rem;
     max-width:400px;
-    width:100%
+    width:100%;
+    min-height:500px;
 }
 .start-wrapper{
     display:grid;
