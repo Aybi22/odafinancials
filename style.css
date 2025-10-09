@@ -31,13 +31,17 @@ body,html{
     height:100%;
     background:#F6EBE4;
     padding-top:30px;
-    display:flex;
-    flex-direction:column;
+    
 
 }
 .detail{
     flex:1;
    
+}
+
+#success{
+    display:flex;
+    flex-direction: column;
 }
 #headNav{
      background:#F6EBE4;
