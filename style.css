@@ -31,6 +31,12 @@ body,html{
     height:100%;
     background:#F6EBE4;
     padding-top:30px;
+    display:flex;
+    flex-direction:column;
+
+}
+.detail{
+    flex:1;
 }
 #headNav{
      background:#F6EBE4;
@@ -526,6 +532,10 @@ a.btn{
     text-align:left;
     color:black;
    
+}
+#footer{
+   
+    margin:0;
 }
 
 .proof .text-info{
