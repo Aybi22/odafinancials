@@ -37,6 +37,7 @@ body,html{
 }
 .detail{
     flex:1;
+   
 }
 #headNav{
      background:#F6EBE4;
@@ -261,7 +262,10 @@ h3{
     background: var(--snow);
 }
 .detail{
-    background:var(--snow);
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+   gap:1rem;
     max-width:900px;
     width:100%;
     margin:auto;
